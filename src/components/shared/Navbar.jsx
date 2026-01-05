@@ -1,3 +1,16 @@
+import { Link } from "react-router-dom";
+import logo from "/public/buyandfly-logo.png";
+// Import Swiper React components
+import { Swiper, SwiperSlide } from "swiper/react";
+// Import Swiper styles
+import "swiper/css";
+import 'swiper/css/navigation';
+import { Autoplay } from "swiper/modules";
+
+import { FaMailBulk, FaPhone } from "react-icons/fa";
+import NavLink from "./NavLink";
+
+
 export default function Navbar() {
   return (
     <div>
