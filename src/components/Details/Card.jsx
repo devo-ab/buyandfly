@@ -53,7 +53,7 @@ export default function Card() {
       {/* top bar */}
       <div className="flex items-center gap-5">
         {/* time part start */}
-        {/* <div className="flex gap-16 items-center justify-between">
+        <div className="flex gap-16 items-center justify-between">
           <div className="flex items-center gap-3">
             <p className="text-xl text-blue-600">
               <LuAlarmClock />
@@ -61,7 +61,7 @@ export default function Card() {
             <p className="text-sm font-semibold text-black">Time Remaining</p>
           </div>
           <p className="text-blue-600 font-bold">26:30</p>
-        </div> */}
+        </div>
         {/* time part end */}
 
         {/* bar start */}
