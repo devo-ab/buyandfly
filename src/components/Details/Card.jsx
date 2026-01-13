@@ -65,7 +65,7 @@ export default function Card() {
         {/* time part end */}
 
         {/* bar start */}
-        {/* <div className="flex items-center gap-3">
+        <div className="flex items-center gap-3">
           <div className="flex items-center gap-3 bg-orange-100 px-5 py-2 w-fit rounded">
             <p className="px-[7px] py-[1px] rounded-full bg-orange-500 w-fit text-sm text-white font-semibold">1</p>
             <p className="font-semibold text-sm">Booking Details</p>
@@ -82,7 +82,7 @@ export default function Card() {
             <p className="px-[7px] py-[1px] rounded-full bg-orange-500 w-fit text-sm text-white font-semibold">4</p>
             <p className="font-semibold text-sm">Review & Payment</p>
           </div>
-        </div> */}
+        </div>
         {/* bar start */}
       </div>
       {/* top bar */}
