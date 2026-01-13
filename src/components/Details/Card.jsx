@@ -89,7 +89,7 @@ export default function Card() {
       <div className="flex gap-5 mt-6">
         <div className="flex">
           {/* booking details start */}
-          {/* <div>
+          <div>
             <p className="text-black font-bold text-lg p-3">Booking Details</p>
 
             <div className="mt-1">
@@ -106,7 +106,7 @@ export default function Card() {
                 Traveller Details
               </button>
             </div>
-          </div> */}
+          </div>
           {/* booking details end */}
 
           {/* form start */}
