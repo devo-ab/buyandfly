@@ -127,7 +127,7 @@ export default function Card() {
             <div className="max-h-96 overflow-y-auto px-4 pb-4 mt-5 w-full">
               <form onSubmit={handleSubmit(onSubmit)} className="space-y-4">
                 {/* favorite travellers start */}
-                {/* <div>
+                <div>
                   <select
                     {...register("favoriteTravellers")}
                     className="w-full p-2 border rounded-md text-gray-600 border-none bg-gray-100"
@@ -135,7 +135,7 @@ export default function Card() {
                     <option value="">Select from favorite travellers</option>
                     <option value="Male">MySelf</option>
                   </select>
-                </div> */}
+                </div>
                 {/* favorite travellers start */}
 
                 <div className="mt-5 flex items-center gap-2 text-center w-full">
